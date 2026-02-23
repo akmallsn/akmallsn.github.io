@@ -2,85 +2,88 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/posts/diary1/</loc>
+    <lastmod>2026-02-23T16:57:41+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2026-02-23T16:57:41+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
     <lastmod>2025-06-27T20:29:02+07:00</lastmod>
   </url><url>
-    <loc>/categories/default/</loc>
+    <loc>//localhost:1313/categories/default/</loc>
     <lastmod>2025-06-27T20:29:02+07:00</lastmod>
   </url><url>
-    <loc>/tags/default/</loc>
+    <loc>//localhost:1313/tags/default/</loc>
     <lastmod>2025-06-27T20:29:02+07:00</lastmod>
   </url><url>
-    <loc>/posts/2025-06-27-i-moved-the-emperor-to-the-right-4-times/</loc>
+    <loc>//localhost:1313/posts/2025-06-27-i-moved-the-emperor-to-the-right-4-times/</loc>
     <lastmod>2025-06-27T20:29:02+07:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>//localhost:1313/tags/</loc>
     <lastmod>2025-06-27T20:29:02+07:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2025-06-27T20:29:02+07:00</lastmod>
-  </url><url>
-    <loc>/tags/bantul/</loc>
+    <loc>//localhost:1313/tags/bantul/</loc>
     <lastmod>2025-01-19T16:44:57+07:00</lastmod>
   </url><url>
-    <loc>/tags/daerah-istimewa-yogyakarta/</loc>
+    <loc>//localhost:1313/tags/daerah-istimewa-yogyakarta/</loc>
     <lastmod>2025-01-19T16:44:57+07:00</lastmod>
   </url><url>
-    <loc>/posts/jalan-jalan-imogiri/</loc>
+    <loc>//localhost:1313/posts/jalan-jalan-imogiri/</loc>
     <lastmod>2025-01-19T16:44:57+07:00</lastmod>
   </url><url>
-    <loc>/categories/liburan/</loc>
+    <loc>//localhost:1313/categories/liburan/</loc>
     <lastmod>2025-01-19T16:44:57+07:00</lastmod>
   </url><url>
-    <loc>/categories/perjalanan/</loc>
+    <loc>//localhost:1313/categories/perjalanan/</loc>
     <lastmod>2025-01-19T16:44:57+07:00</lastmod>
   </url><url>
-    <loc>/pesan/</loc>
+    <loc>//localhost:1313/pesan/</loc>
     <lastmod>2025-01-15T19:23:20+07:00</lastmod>
   </url><url>
-    <loc>/vent/</loc>
+    <loc>//localhost:1313/vent/</loc>
     <lastmod>2025-01-15T19:23:20+07:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>//localhost:1313/about/</loc>
     <lastmod>2025-01-10T19:57:06+07:00</lastmod>
   </url><url>
-    <loc>/tags/gaya-hidup/</loc>
+    <loc>//localhost:1313/tags/gaya-hidup/</loc>
     <lastmod>2024-12-31T20:56:41+07:00</lastmod>
   </url><url>
-    <loc>/categories/keseharian/</loc>
+    <loc>//localhost:1313/categories/keseharian/</loc>
     <lastmod>2024-12-31T20:56:41+07:00</lastmod>
   </url><url>
-    <loc>/tags/masalah-sosial/</loc>
+    <loc>//localhost:1313/tags/masalah-sosial/</loc>
     <lastmod>2024-12-31T20:56:41+07:00</lastmod>
   </url><url>
-    <loc>/posts/2024-12-31-ubermensch/</loc>
+    <loc>//localhost:1313/posts/2024-12-31-ubermensch/</loc>
     <lastmod>2024-12-31T20:56:41+07:00</lastmod>
   </url><url>
-    <loc>/tags/embedded-system/</loc>
+    <loc>//localhost:1313/tags/embedded-system/</loc>
     <lastmod>2024-12-30T20:16:49+07:00</lastmod>
   </url><url>
-    <loc>/posts/2024-12-30-esp32_esp-idf/</loc>
+    <loc>//localhost:1313/posts/2024-12-30-esp32_esp-idf/</loc>
     <lastmod>2024-12-30T20:16:49+07:00</lastmod>
   </url><url>
-    <loc>/categories/teknologi/</loc>
+    <loc>//localhost:1313/categories/teknologi/</loc>
     <lastmod>2024-12-30T20:16:49+07:00</lastmod>
   </url><url>
-    <loc>/posts/2024-12-30-meja_berantakan/</loc>
+    <loc>//localhost:1313/posts/2024-12-30-meja_berantakan/</loc>
     <lastmod>2024-12-30T09:13:07+07:00</lastmod>
   </url><url>
-    <loc>/tags/produktivitas/</loc>
+    <loc>//localhost:1313/tags/produktivitas/</loc>
     <lastmod>2024-12-30T09:13:07+07:00</lastmod>
   </url><url>
-    <loc>/tags/blogging/</loc>
+    <loc>//localhost:1313/tags/blogging/</loc>
     <lastmod>2024-12-30T08:37:25+07:00</lastmod>
   </url><url>
-    <loc>/posts/migrasi_ke_static_file/</loc>
+    <loc>//localhost:1313/posts/migrasi_ke_static_file/</loc>
     <lastmod>2024-12-30T08:37:25+07:00</lastmod>
   </url><url>
-    <loc>/posts/first/</loc>
+    <loc>//localhost:1313/posts/first/</loc>
     <lastmod>2024-12-29T23:24:49+07:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2022-08-25T21:30:04+08:00</lastmod>
   </url>
 </urlset>

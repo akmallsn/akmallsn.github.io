@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on </title>
-    <link>/categories/</link>
+    <link>//localhost:1313/categories/</link>
     <description>Recent content in Categories on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 27 Jun 2025 20:29:02 +0700</lastBuildDate>
-    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Default</title>
-      <link>/categories/default/</link>
+      <link>//localhost:1313/categories/default/</link>
       <pubDate>Fri, 27 Jun 2025 20:29:02 +0700</pubDate>
-      <guid>/categories/default/</guid>
+      <guid>//localhost:1313/categories/default/</guid>
       <description></description>
     </item>
     <item>
       <title>Liburan</title>
-      <link>/categories/liburan/</link>
+      <link>//localhost:1313/categories/liburan/</link>
       <pubDate>Sun, 19 Jan 2025 16:44:57 +0700</pubDate>
-      <guid>/categories/liburan/</guid>
+      <guid>//localhost:1313/categories/liburan/</guid>
       <description></description>
     </item>
     <item>
       <title>Perjalanan</title>
-      <link>/categories/perjalanan/</link>
+      <link>//localhost:1313/categories/perjalanan/</link>
       <pubDate>Sun, 19 Jan 2025 16:44:57 +0700</pubDate>
-      <guid>/categories/perjalanan/</guid>
+      <guid>//localhost:1313/categories/perjalanan/</guid>
       <description></description>
     </item>
     <item>
       <title>Keseharian</title>
-      <link>/categories/keseharian/</link>
+      <link>//localhost:1313/categories/keseharian/</link>
       <pubDate>Tue, 31 Dec 2024 20:56:41 +0700</pubDate>
-      <guid>/categories/keseharian/</guid>
+      <guid>//localhost:1313/categories/keseharian/</guid>
       <description></description>
     </item>
     <item>
       <title>Teknologi</title>
-      <link>/categories/teknologi/</link>
+      <link>//localhost:1313/categories/teknologi/</link>
       <pubDate>Mon, 30 Dec 2024 20:16:49 +0700</pubDate>
-      <guid>/categories/teknologi/</guid>
+      <guid>//localhost:1313/categories/teknologi/</guid>
       <description></description>
     </item>
   </channel>
