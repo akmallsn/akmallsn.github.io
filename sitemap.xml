@@ -2,14 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://akmallsn.github.io/</loc>
-    <lastmod>2026-03-07T21:08:42+07:00</lastmod>
-  </url><url>
-    <loc>https://akmallsn.github.io/posts/mind-mapping/</loc>
-    <lastmod>2026-03-07T21:08:42+07:00</lastmod>
-  </url><url>
-    <loc>https://akmallsn.github.io/posts/</loc>
-    <lastmod>2026-03-07T21:08:42+07:00</lastmod>
+    <loc>https://akmallsn.github.io/gallery/</loc>
+    <lastmod>2026-03-11T13:14:53+07:00</lastmod>
   </url><url>
     <loc>https://akmallsn.github.io/categories/</loc>
     <lastmod>2025-06-27T20:29:02+07:00</lastmod>
@@ -21,6 +15,9 @@
     <lastmod>2025-06-27T20:29:02+07:00</lastmod>
   </url><url>
     <loc>https://akmallsn.github.io/posts/2025-06-27-i-moved-the-emperor-to-the-right-4-times/</loc>
+    <lastmod>2025-06-27T20:29:02+07:00</lastmod>
+  </url><url>
+    <loc>https://akmallsn.github.io/posts/</loc>
     <lastmod>2025-06-27T20:29:02+07:00</lastmod>
   </url><url>
     <loc>https://akmallsn.github.io/tags/</loc>
@@ -85,5 +82,8 @@
   </url><url>
     <loc>https://akmallsn.github.io/posts/first/</loc>
     <lastmod>2024-12-29T23:24:49+07:00</lastmod>
+  </url><url>
+    <loc>https://akmallsn.github.io/</loc>
+    <lastmod>2022-08-25T21:30:04+08:00</lastmod>
   </url>
 </urlset>
