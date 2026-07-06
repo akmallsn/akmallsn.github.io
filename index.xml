@@ -6,8 +6,15 @@
     <description>Recent content in Hanya diary dari mahasiswa pemalas on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Mar 2026 13:14:53 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 23:33:35 +0700</lastBuildDate>
     <atom:link href="https://akmallsn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mengenal Syntax dan Semantics dalam Bahasa Pemrograman</title>
+      <link>https://akmallsn.github.io/syntax_vs_semantics/</link>
+      <pubDate>Mon, 06 Jul 2026 23:33:35 +0700</pubDate>
+      <guid>https://akmallsn.github.io/syntax_vs_semantics/</guid>
+      <description>&lt;p&gt;Dalam pemrograman komputer, kita tidak bisa langsung menyuruh komputer untuk melakukan sesuatu dengan bahasa manusia; kita harus menulis baris kode yang akan di-&lt;em&gt;compile&lt;/em&gt; sehingga komputer dapat mengerti apa instruksi kita. Dengan ini, fungsi bahasa pemrograman adalah jembatan bagi manusia dan komputer. Sama seperti bahasa manusia, bahasa pemrograman juga memiliki struktur yang terdiri dari &lt;em&gt;syntax&lt;/em&gt; dan &lt;em&gt;semantics&lt;/em&gt;. Di blog ini, saya akan menjelaskan apa itu &lt;em&gt;syntax&lt;/em&gt; dan &lt;em&gt;semantics&lt;/em&gt; dalam bahasa pemrograman.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Gallery</title>
       <link>https://akmallsn.github.io/gallery/</link>

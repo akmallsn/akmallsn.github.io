@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="description" content="Dalam pemrograman komputer, kita tidak bisa langsung menyuruh komputer untuk melakukan sesuatu dengan bahasa manusia; kita harus menulis baris kode yang akan di-compile sehingga komputer dapat mengerti apa instruksi kita. Dengan ini, fungsi bahasa pemrograman adalah jembatan bagi manusia dan komputer. Sama seperti bahasa manusia, bahasa pemrograman juga memiliki struktur yang terdiri dari syntax dan semantics. Di blog ini, saya akan menjelaskan apa itu syntax dan semantics dalam bahasa pemrograman.">  
+
+  <title>
+    
+      Mengenal Syntax dan Semantics dalam Bahasa Pemrograman
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/" />
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.51652302d3a998bf7887aed5c2cf89141bbebdf45a2c8f87b0717a3cf4f51c4e53c694c328fb1de78c3a625a1c01f80745bf1f2f42c040647a245cbbb6c2d1d7.css" integrity="sha512-UWUjAtOpmL94h67Vws&#43;JFBu&#43;vfRaLI&#43;HsHF6PPT1HE5TxpTDKPsd54w6YlocAfgHRb8fL0LAQGR6JFy7tsLR1w==" />
+  
+</head>
+<body a="light">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">[home]</a>
+
+<article>
+    <p class="post-meta">
+        <time datetime="2026-07-06 23:33:35 &#43;0700 WIB">
+            2026-07-06
+        </time>
+    </p>
+
+    <h1>Mengenal Syntax dan Semantics dalam Bahasa Pemrograman</h1>
+
+    
+
+    <p>Dalam pemrograman komputer, kita tidak bisa langsung menyuruh komputer untuk melakukan sesuatu dengan bahasa manusia; kita harus menulis baris kode yang akan di-<em>compile</em> sehingga komputer dapat mengerti apa instruksi kita. Dengan ini, fungsi bahasa pemrograman adalah jembatan bagi manusia dan komputer. Sama seperti bahasa manusia, bahasa pemrograman juga memiliki struktur yang terdiri dari <em>syntax</em> dan <em>semantics</em>. Di blog ini, saya akan menjelaskan apa itu <em>syntax</em> dan <em>semantics</em> dalam bahasa pemrograman.</p>
+<h1 id="apa-itu-syntax">Apa itu syntax?</h1>
+<p><em>Syntax</em> merupakan struktur dari bahasa-bahasa. Secara jelas, <em>syntax</em> merupakan aturan penempatan struktur kalimat yang ada di bahasa-bahasa; tidak hanya bahasa manusia yang memiliki <em>syntax</em>, namun bahasa pemrograman juga memiliki <em>syntax</em>. Diberikan suatu contoh: &ldquo;Saya sedang meminum susu,&rdquo; merupakan suatu kalimat yang memiliki <em>syntax</em> yang benar di bahasa Indonesia atau Melayu; penulisan <em>syntax</em> juga dapat salah apabila kita menulisnya dengan kalimat: &ldquo;Sedang meminum saya susu,&rdquo; karena tidak sesuai dengan kaidah bahasa tersebut. Sama seperti di bahasa pemrograman, <em>syntax</em> juga tergantung dengan bahasa pemrograman yang digunakan; untuk sebagai contoh di bahasa pemrograman C:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(){
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> a<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;%d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>,a);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Kode di atas dapat dikatakan benar, karena kode yang ditulis sudah sesuai dengan kaidah bahasa pemrograman C. Diberikan pula contoh yang salah di bahasa pemrograman C:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(){
+</span></span><span style="display:flex;"><span>    a <span style="color:#66d9ef">int</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;%d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>,a);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Kode tersebut salah karena tidak memenuhi kaidah <em>syntax</em> bahasa pemrograman C yang di mana penulisan deklarasi variabel harus &ldquo;int (nama variabel) = (isi variabel).&rdquo; Sehingga kode tidak akan di-<em>compile</em> oleh C <em>compiler</em> karena di bagian tahap pengecekan <em>syntax</em> gagal dan tidak dapat melakukan tahap berikutnya, yaitu: analisis <em>semantics</em>.</p>
+<h1 id="apa-itu-semantics">Apa itu semantics?</h1>
+<p><em>Semantics</em> merupakan makna dari suatu kalimat, jika <em>syntax</em> sudah sesuai kaidah bahasa tersebut maka kita dapat mengetahui apa makna dari kalimat tersebut. Bagaimana kita mengetahui bagaimana <em>semantics</em> dari suatu kalimat sudah benar dengan kita melakukan analisis logika, &ldquo;apakah kalimat tersebut masuk akal?&rdquo; Sebagai contoh di dalam kalimat bahasa Indonesia atau Melayu: &ldquo;Saya sedang minum sepiring nasi,&rdquo; kalimat tersebut sudah benar secara <em>syntax</em> dari bahasa tersebut, namun hal yang masih kurang benar adalah makna dari kalimat tersebut. Diberikan suatu kode di bahasa pemrograman C:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(){
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> a<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;%d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>,a);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Kode di atas sudah benar secara <em>semantics</em> karena sudah memenuhi logika &ldquo;apakah kode tersebut masuk akal.&rdquo; Jika kita analisis kode tersebut, kita sudah mendeklarasikan variabel; manuliskan output dengan fungsi printf yang sudah memenuhi parameter yang diperlukan; sudah melakukan return bilangan di fungsi <em>integer</em>. Sehingga kode ini dapat berlanjut ke langkah selanjutnya untuk melakukan kompilasi. Untuk kode yang tidak benar, diberikan kode C di bawah ini:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(){
+</span></span><span style="display:flex;"><span>    a <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;%d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>,a);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Kode di atas, secara penulisan sudah benar. Dengan <em>assign</em> variabel, pemanggilan fungsi printf, <em>return</em> secara benar sesuai kaidah <em>syntax</em> bahasa pemrograman C. Namun jika kita perhatikan, terdapat kode <code>a=10</code> tanpa deklarasi variabel, meskipun secara <em>syntax</em> sudah benar tetapi kode tersebut tidaklah logis; jika kita ingin melakukan <em>assign</em> variabel kita harus mendeklarasikan variabel terlebih dahulu di bahasa pemrograman C.</p>
+<h1 id="kesimpulan">Kesimpulan</h1>
+<p><em>Syntax</em> dan <em>semantics</em> merupakan dua konsep dasar yang harus dipahami ketika mempelajari bahasa pemrograman. <em>Syntax</em> berfokus pada aturan penulisan kode agar sesuai dengan tata bahasa suatu bahasa pemrograman, sedangkan <em>semantics</em> berfokus pada makna atau logika dari kode yang ditulis. Sebuah program dengan <em>syntax</em> yang salah tidak dapat diproses lebih lanjut oleh <em>compiler</em> karena tidak memenuhi aturan penulisan. Sebaliknya, program yang memiliki <em>syntax</em> benar belum tentu benar secara <em>semantics</em>; <em>compiler</em> masih harus memastikan bahwa kode tersebut memenuhi aturan seperti deklarasi variabel, kesesuaian tipe data, ruang lingkup (<em>scope</em>), serta penggunaan fungsi yang benar.</p>
+<p>Dengan memahami perbedaan antara <em>syntax</em> dan <em>semantics</em>, seorang programmer dapat lebih mudah mengidentifikasi sumber kesalahan yang muncul saat proses kompilasi. Hal ini juga membantu dalam menulis kode yang tidak hanya valid menurut aturan bahasa, tetapi juga memiliki makna yang benar sehingga dapat dijalankan sesuai dengan tujuan program.</p>
+
+</article>
+
+                
+    
+    
+        
+        <footer class="site-footer">
+            <p>&copy; 2026 </p>
+        </footer>
+    
+
+
+            </div>
+        </main>
+    </body>
+</html>
