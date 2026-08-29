@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://akmallsn.github.io/posts/pantai_ngrumput/</loc>
-    <lastmod>2026-07-29T23:19:25+07:00</lastmod>
-  </url><url>
     <loc>https://akmallsn.github.io/posts/</loc>
+    <lastmod>2026-08-29T22:51:32+07:00</lastmod>
+  </url><url>
+    <loc>https://akmallsn.github.io/posts/thisisit/</loc>
+    <lastmod>2026-08-29T22:51:32+07:00</lastmod>
+  </url><url>
+    <loc>https://akmallsn.github.io/posts/pantai_ngrumput/</loc>
     <lastmod>2026-07-29T23:19:25+07:00</lastmod>
   </url><url>
     <loc>https://akmallsn.github.io/syntax_vs_semantics/</loc>
